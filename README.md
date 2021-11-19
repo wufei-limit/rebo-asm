@@ -16,7 +16,6 @@ root/build.gradle 添加依赖
 dependencies {
 ...
 
-classpath("com.xal.gradle.plugin:xal-gradle-plugin:4.5.0-alpha1060-SNAPSHOT")
 classpath("io.github.wufei-limit:reboasm:1.0.0")
 }
 ```
@@ -27,8 +26,9 @@ app/build.gradle添加注解辅助
 apply plugin: 'io.github.reboasm'
 dependencies {
 ...
-implementation 'com.xal.publicrepository:RoboAsm-annotation:1.0.0-alpha6-SNAPSHOT'
-annotationProcessor 'com.xal.publicrepository:RoboAsm-compiler:1.0.0-alpha6-SNAPSHOT'
+//注解帮助库
+implementation 'io.github.wufei-limit:roboasm-annotation:1.0.0'
+annotationProcessor 'io.github.wufei-limit:roboasm-compiler:1.0.0'
 }
 
 
