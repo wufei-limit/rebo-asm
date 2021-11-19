@@ -9,6 +9,31 @@ RoboAsm自动化插桩框架，提供了一种简单易用、无侵入、注解�
 修复bug，排除bug，方法耗时统计，性能监控，添加自己所有想要的逻辑。
 
 
+### 接入方式
+
+root/build.gradle 添加依赖
+```
+dependencies {
+...
+
+classpath("com.xal.gradle.plugin:xal-gradle-plugin:4.5.0-alpha1060-SNAPSHOT")
+classpath("io.github.wufei-limit:reboasm:1.0.0")
+}
+```
+
+app/build.gradle添加注解辅助
+
+```
+apply plugin: 'io.github.reboasm'
+dependencies {
+...
+implementation 'com.xal.publicrepository:RoboAsm-annotation:1.0.0-alpha6-SNAPSHOT'
+annotationProcessor 'com.xal.publicrepository:RoboAsm-compiler:1.0.0-alpha6-SNAPSHOT'
+}
+
+
+```
+
 
 ### 功能组成
 

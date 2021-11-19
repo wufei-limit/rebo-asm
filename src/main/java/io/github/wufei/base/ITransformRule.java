@@ -3,7 +3,7 @@ package io.github.wufei.base;
 public interface ITransformRule {
     /**
      * 如果{@filterClass()}返回为true,
-     * 将会进行ClassReader->ClassVisitor->ClassWriter处理原始的class文件二进制数据
+     * 将会进行ClassReader-ClassVisitor-ClassWriter处理原始的class文件二进制数据
      *
      * @param srcData 原始的class文件二进制数据
      * @return 处理后的class文件的二进制数据
