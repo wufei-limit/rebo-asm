@@ -1,0 +1,12 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+dependencies {
+    implementation 'org.ow2.asm:asm:7.0'
+    implementation 'org.ow2.asm:asm-commons:7.0'
+    implementation 'com.android.tools.build:gradle:4.0.2'
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
