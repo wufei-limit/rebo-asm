@@ -170,7 +170,7 @@ RoboAsm插桩框架组成分为3大功能:
 
 ```@TryCatchMethod (className = "com.example.A", methodName = "add", isStatic = false)```
 
-![tryCatchMethod](./img/try_cache.jpg)
+![tryCatchMethod](./img/try_catch.jpg)
 
 
 @SkipClass 指定包名跳过所有的处理,在类似添加注解,eg:
