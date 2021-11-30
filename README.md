@@ -11,6 +11,8 @@ RoboAsm自动化插桩框架，提供了一种简单易用、无侵入、注解�
 
 ### 接入方式
 
+添加```mavenCentral()``` repo
+
 root/build.gradle 添加依赖
 ```
 dependencies {
@@ -23,7 +25,7 @@ classpath("io.github.wufei-limit:reboasm:1.0.0")
 app/build.gradle添加注解辅助
 
 ```
-apply plugin: 'io.github.reboasm'
+apply plugin: 'io.github.roboasm'
 dependencies {
 ...
 //注解帮助库
