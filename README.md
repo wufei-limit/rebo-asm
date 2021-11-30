@@ -30,7 +30,7 @@ dependencies {
 ...
 //注解帮助库
 implementation 'io.github.wufei-limit:roboasm-annotation:1.0.0'
-annotationProcessor 'io.github.wufei-limit:roboasm-compiler:1.0.0'
+annotationProcessor 'io.github.wufei-limit:roboasm-compiler:1.0.1'
 }
 
 
